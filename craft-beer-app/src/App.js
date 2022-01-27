@@ -8,11 +8,14 @@ import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Menu from './Components/Menu';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter,
   Routes,
   Route
   } from "react-router-dom";
+  
+
 
 
 function App() {
