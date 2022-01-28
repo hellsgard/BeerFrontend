@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-const Beer = ({name, tagline, image, abv, desc}) => {
+const Beer = ({name, tagline, image, abv, desc, id}) => {
 
     return (
  
@@ -21,6 +21,7 @@ const Beer = ({name, tagline, image, abv, desc}) => {
                 <p>{tagline}</p>
                   <h6> Alcohol content: {abv}% </h6>
                     <p> {desc} </p>
+                    <p>{id}</p>
               </Card.Text>
             <Button variant="primary">Delete beer</Button>
           </Card.Body>
