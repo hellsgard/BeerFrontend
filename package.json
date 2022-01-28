@@ -1,5 +1,5 @@
 {
-  "name": "craft-beer-app",
+  "name": "BeerFrontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
